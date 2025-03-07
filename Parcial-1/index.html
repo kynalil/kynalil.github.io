@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andromeda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Andromeda</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="articles">
+            <article>
+                <img src="img/Andromeda2.jpg" alt="Galaxia">
+                <h2>Andromeda</h2>
+                <p>Andrómeda puede referirse a una princesa de la mitología griega o a una galaxia espiral</p>
+            </article>
+            <article>
+                <img src="img/Nebulosa.jpg" alt="Nebulosa">
+                <h2>Nebulosa</h2>
+                <p>Es una región del medio interestelar constituida por gases, principalmente hidrógeno y helio.</p>
+            </article>
+        </section>
+        
+        <section class="contact">
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+        <section class="scores">
+            <h2>Puntaje de Estudiantes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>HTML</th>
+                        <th>CSS</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Valentina</td>
+                        <td>80</td>
+                        <td>90</td>
+                        <td>170</td>
+                    </tr>
+                    <tr>
+                        <td>Asvack</td>
+                        <td>85</td>
+                        <td>95</td>
+                        <td>180</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total</td>
+                        <td>350</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Contacto: asvack@asvack.com</p>
+    </footer>
+</body>
+</html>
